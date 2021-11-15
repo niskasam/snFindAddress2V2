@@ -44,9 +44,9 @@ export default function App() {
         Alert.alert('No   permissionto get location')
         return;}
       let  location= await Location.getCurrentPositionAsync({});
-      console.log(location)
-      console.log(location.coords.latitude)
-      console.log(location.coords.longitude)
+      // console.log(location)
+      // console.log(location.coords.latitude)
+      // console.log(location.coords.longitude)
       setRegion({
         ...region,
         latitude:location.coords.latitude,
