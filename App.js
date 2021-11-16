@@ -6,13 +6,15 @@ import {REACT_APP_API_KEY} from '@env';
 
 export default function App() {
 
+    // app icon by Freepik
+
   const key = REACT_APP_API_KEY
 
   const [region, setRegion] = useState({
     latitude: 60.451650744313014,
     longitude: 22.267172535195293,
-    latitudeDelta: 0.0322,
-    longitudeDelta: 0.0221
+    latitudeDelta: 0.0111,
+    longitudeDelta: 0.0222
   });
 
   const [location, setLocation] = useState('');
